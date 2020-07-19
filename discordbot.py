@@ -13,7 +13,7 @@ async def on_command_error(ctx, error):
     await ctx.send(error_msg)
 
 import random 
-   if message.content == "樋□さんお話しして！":
+   if message.content == "hallo":
 　　　　　#↓
        hennnahuri = ["せんわ", "みんなでハワイ行きたいなぁ", "整地してるから黙って？", "あ", "そのフリはつまらん", "君はもう少し服にお金かけてもいいと思うよ", "無理"]
        choice = random.choice(hennnahuri)＃←
