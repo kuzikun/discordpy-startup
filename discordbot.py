@@ -16,18 +16,5 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
 
-import random 
-   if message.content == "+randomrule":
-　　　　　#↓
-       hennnahuri = ["ガチエリア", "ガチアサリ", "ガチホコ", "ガチヤグラ"]
-       choice = random.choice(hennnahuri)＃←
-       await message.channel.send(choice)
-        
-import random 
-   if message.content == "+rr":
-　　　　　#↓
-       hennnahuri = ["ガチエリア", "ガチアサリ", "ガチホコ", "ガチヤグラ"]
-       choice = random.choice(hennnahuri)＃←
-       await message.channel.send(choice)
         
 bot.run(token)
