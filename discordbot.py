@@ -21,7 +21,7 @@ import random
    
 @bot.command()
 async def ping(ctx):
-    await ctx.send('pong')
+    await ctx.send('pong by python')
 
         
 bot.run(token)
